@@ -13,11 +13,10 @@ function calcularFormula($x, $y){
 }
 $resultado = null;
 
+
 $x = $_POST['x'];
 $y = $_POST['y'];
 
-$x = null;
-$y = null;
 
 $resultado = calcularFormula($x, $y);
 
@@ -32,6 +31,8 @@ $resultado = calcularFormula($x, $y);
 </head>
 <body>
     
+<h3>Calcular usando formula</h3>
+
 <form method="POST">
 <label for="x" id="x">Primero Numero:</label>
 <input type="number" name="x" id="x" required>
