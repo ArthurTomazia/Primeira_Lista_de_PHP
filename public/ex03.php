@@ -20,9 +20,10 @@ return $resultado;
 
 $resultado = null;
 
+if (isset($_POST['CPF'])) {
 $CPF = $_POST['CPF'];
-
 $resultado = mascararCpf($CPF);
+}
 ?>
 
 <!DOCTYPE html>

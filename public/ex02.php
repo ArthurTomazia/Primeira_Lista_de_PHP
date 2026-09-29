@@ -12,12 +12,12 @@ function inverterTexto($texto){
 $inverso = null;
 $quantidade = null;
 
+if (isset($_POST['texto'])) {
 $texto = $_POST['texto'];
-
 $resultado = inverterTexto($texto);
-
 $inverso = $resultado['inverso'];
-$quantidade = $resultado['quantidade']
+$quantidade = $resultado['quantidade'];
+}
 
 
 

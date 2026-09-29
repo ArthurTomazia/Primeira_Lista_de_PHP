@@ -17,7 +17,6 @@ $resultado = null;
 $x = $_POST['x'];
 $y = $_POST['y'];
 
-
 $resultado = calcularFormula($x, $y);
 
 ?>
