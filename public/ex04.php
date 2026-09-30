@@ -4,7 +4,7 @@ function gerarSenha($quantidade){
 if($quantidade < 5){
     return "Senha curtade mais, minimo de 5 casas";
 } else {
-$caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*';
+$caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*!@#$%&*!@#$%&*123456789123456789!@#$%&*!@#$%&*!@#$%&*123456789123456789';
 $embaralhado = str_shuffle($caracteres);
 $resultado = substr($embaralhado, 0, $quantidade);
 return $resultado;
@@ -39,6 +39,7 @@ $resultado = gerarSenha($quantidade);
     <br>
     <label for="senha"> <?php echo $resultado; ?> </label>
 
+        <br><button><a href="../index.php">Home</a></button>
 </form>
     
 </body>

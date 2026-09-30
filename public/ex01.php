@@ -44,8 +44,7 @@ $resultado = calcularFormula($x, $y);
 <label for="Resultado">Resultado: <?php echo $resultado ?></label>
 
 
-
-
+<br><button><a href="../index.php">Home</a></button>
 </form>
 
 </body>

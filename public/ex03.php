@@ -46,7 +46,7 @@ $resultado = mascararCpf($CPF);
         
 
 
-
+        <br><button><a href="../index.php">Home</a></button>
     </form>
 
 

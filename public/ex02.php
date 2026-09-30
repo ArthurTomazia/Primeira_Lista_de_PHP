@@ -45,7 +45,7 @@ $quantidade = $resultado['quantidade'];
     <br>
     <label for="text" id="quantidade">Quantidade de caracteres: <?php echo $quantidade ?></label>
     
-
+<br><button><a href="../index.php">Home</a></button>
 </form>
 
 </body>
