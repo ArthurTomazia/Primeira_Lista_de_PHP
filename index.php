@@ -14,5 +14,6 @@
 <button><a href="public/ex12.php">Exercise 12</a></button>
 <button><a href="public/ex13.php">Exercise 13</a></button>
 <button><a href="public/ex14.php">Exercise 14</a></button>
+<button><a href="public/ex15.php">Exercise 15</a></button>
 
 </div>

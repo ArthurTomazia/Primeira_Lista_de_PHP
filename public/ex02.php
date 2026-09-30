@@ -41,10 +41,12 @@ $quantidade = $resultado['quantidade'];
     <br>
     <button type="submit">inverter texto</button>
     <br>
+    <br>
     <label for="text" id="textoinvertido">Texto invertido: <?php echo $inverso ?></label>
     <br>
     <label for="text" id="quantidade">Quantidade de caracteres: <?php echo $quantidade ?></label>
-    
+
+<br>
 <br><button><a href="../index.php">Home</a></button>
 </form>
 

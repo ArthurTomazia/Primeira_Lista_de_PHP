@@ -58,13 +58,14 @@ $valor_pago = $resultado['valor_pago'];
     <br>
     <button type="submit">Calcular</button>
     <br>
+    <br>
     <label for="desconto">Desconto ganho: <?php echo $desconto ?></label>
     <br>
     <label for="valor_pago">Valor pago: <?php echo $valor_pago ?></label>
 
 
 
-
+    <br>
     <br><button><a href="../index.php">Home</a></button>
 </form>
 

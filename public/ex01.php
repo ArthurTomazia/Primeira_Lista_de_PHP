@@ -41,9 +41,10 @@ $resultado = calcularFormula($x, $y);
 <br>
 <button type="submit">Calcular</button>
 <br>
+<br>
 <label for="Resultado">Resultado: <?php echo $resultado ?></label>
 
-
+<br>
 <br><button><a href="../index.php">Home</a></button>
 </form>
 

@@ -95,7 +95,7 @@ $perfeito=$resultado['perfeito'];
 
 
 
-
+    <br>
     <br><button><a href="../index.php">Home</a></button>
 
 </form>

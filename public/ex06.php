@@ -70,20 +70,20 @@ $Kelvin = $resultado['Kelvin'];
                 <option value="F">Fahrenheit</option>
                 <option value="K">Kelvin</option>
             </select>
+            <br>
+            <button type="submit">Converter</button>
+            <br>
         <br>
         <label for="Valor_Celsius">Valor em celsius: <?php echo $Celsius;?></label>
         <br>
         <label for="Valor_Fahrenheit">Valor em fahrenheit: <?php echo $Fahrenheit;?></label>
         <br>
         <label for="Valor_Kelvin">Valor kelvin: <?php echo $Kelvin;?></label>
-        <br>
-        <button type="submit">Converter</button>
-
-
-
-
-
-
+       
+       
+       
+       
+     <br>
     <br><button><a href="../index.php">Home</a></button>
     </form>
 

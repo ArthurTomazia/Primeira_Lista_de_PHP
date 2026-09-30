@@ -37,8 +37,10 @@ $resultado = gerarSenha($quantidade);
     <br>
     <button type="submit">Gerar senha</button>
     <br>
+    <br>
     <label for="senha"> <?php echo $resultado; ?> </label>
 
+        <br>
         <br><button><a href="../index.php">Home</a></button>
 </form>
     

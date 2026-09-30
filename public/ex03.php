@@ -41,11 +41,12 @@ $resultado = mascararCpf($CPF);
         <br>
         <button type="submit">Proteger</button>
         <br>
-        <?php echo $resultado; ?>
+        <br>
+        <label for="protegido">CPF Protegido: <?php echo $resultado; ?></label>
        
         
 
-
+        <br>
         <br><button><a href="../index.php">Home</a></button>
     </form>
 
