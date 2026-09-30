@@ -13,11 +13,11 @@ function calcularFormula($x, $y){
 }
 $resultado = null;
 
-
+if (isset($_POST['x'],$_POST['y'])) {
 $x = $_POST['x'];
 $y = $_POST['y'];
-
 $resultado = calcularFormula($x, $y);
+}
 
 ?>
 
