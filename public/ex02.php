@@ -2,7 +2,8 @@
 
 function inverterTexto($texto){
     $inverso = strrev($texto);
-    $quantidade = strlen($texto);
+    $text_sem_espaco = str_replace(' ','', $texto);
+    $quantidade = mb_strlen($text_sem_espaco);
     return [
         'inverso' => $inverso,
         'quantidade' => $quantidade
