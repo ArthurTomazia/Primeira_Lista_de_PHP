@@ -1,6 +1,14 @@
+● Produto mais caro;
+● Produto mais barato;
+● Média dos preços;
+● Pesquisa de um produto informado pelo usuário.
+
 <?php 
 
+function analisarProdutos($produto, $preco){
+    
 
+}
 
 
 
