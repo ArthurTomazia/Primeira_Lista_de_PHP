@@ -1,3 +1,11 @@
  table, tr, td {
     border: 1px solid black; /* Define a espessura, o estilo e a cor da borda */
   }
+
+  .flex{
+    display: flex;
+  }
+
+  .gap{
+    width: 200px;
+  }
