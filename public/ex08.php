@@ -1,22 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ex08</title>
-</head>
-<body>
+<?php
 
-<form method="POST">
+function ordenarNomes($nomesTexto){
+
+    $vetorNomes = explode(",", $nomesTexto);
 
 
+    $vetorNomes = array_map("trim", $vetorNomes);
+
+    sort($vetorNomes);
+
+    return $vetorNomes;
+
+}
+
+$nomes_usuario = "Carlos,  Ana,  Bruno, Fernanda , Daniela";
+ 
+echo "Lista original: $nomes_usuario";
+?>. <br><?php 
+$listaOrganizada = ordenarNomes($nomes_usuario);
+
+echo "Lista organizada: <br>";
 
 
+foreach ($listaOrganizada as $nome){
+    echo "- $nome";  ?>
+    . <br>
+    <?php } ?>
 
 
-    <br>
-    <br><button><a href="../index.php">Home</a></button>
-</form>
-    
-</body>
-</html>
+   
